@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/interactive-pricing-component-zievkSt9VG)
+- Live Site URL: [live site URL here](https://github.com/gilangr1440/interactive-pricing-component)
 
 ## My process
 
