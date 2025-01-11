@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles/CSS/css-reset.css" />
+    <link rel="stylesheet" href="styles/CSS/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="styles/CSS/tablet.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="styles/CSS/laptop.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="styles/CSS/laptopL.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1440px)" href="styles/CSS/desktop.css" />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Simple, traffic-based pricing</h1>
+      <p class="header__desc">
+        Sign-up for our 30-day trial. <br class="header__mobile-break" />
+        No credit card required.
+      </p>
+    </header>
+
+    <main class="card">
+      <div class="card__top">
+        <p class="card__page-view"><span class="card__page-view-count">100</span><span class="card__page-view-unit">K</span> Pageviews</p>
+        <p class="card__price-per-month">
+          <span class="card__price">$<span class="card__price-number">16</span>.00</span> / <span class="card__time-duration">month</span>
+        </p>
+        <input type="range" class="card__slider" min="0" max="100" value="50" step="10" />
+      </div>
+      <div class="card__toggle-section">
+        <p class="card__toggle-text">Monthly Billing</p>
+        <label for="toggle" class="card__toggle">
+          <input type="checkbox" class="card__toggle-checkbox" id="toggle" />
+          <div class="card__toggle-circle"></div>
+        </label>
+        <p class="card__toggle-text">Yearly Billing</p>
+        <p class="card__toggle-text-discount"><span class="card__toggle-text-discount_stripe">-</span>25% <span class="card__toggle-text-discount_hide">discount</span></p>
+      </div>
+      <hr class="card__line" />
+      <div class="card__bottom">
+        <ul class="card__features">
+          <li class="card__feature-list"><img src="images/icon-check.svg" alt="check" class="card__feature-icon" /> Unlimited websites</li>
+          <li class="card__feature-list"><img src="images/icon-check.svg" alt="check" class="card__feature-icon" /> 100% data ownership</li>
+          <li class="card__feature-list"><img src="images/icon-check.svg" alt="check" class="card__feature-icon" /> Email reports</li>
+        </ul>
+        <button class="card__button">Start my trial</button>
+      </div>
+    </main>
+
+    <footer class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.linkedin.com/in/gilangr1440/">Gilang Ramadhan</a>.</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

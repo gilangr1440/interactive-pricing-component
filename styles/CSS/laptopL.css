@@ -1,0 +1,15 @@
+body {
+  background-size: 100% 50%;
+}
+.header {
+  margin: 0;
+  background-size: auto 60%;
+  background-position: top 50% center;
+}
+.header__title {
+  font-size: 2rem;
+}
+
+.header__desc {
+  font-size: 1.1rem;
+}/*# sourceMappingURL=laptopL.css.map */

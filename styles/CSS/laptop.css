@@ -1,0 +1,28 @@
+.header {
+  padding: 0;
+  margin: 3% 0;
+  background-position: top 60% center;
+  background-size: auto 70%;
+}
+
+.card__toggle-text-discount {
+  padding: 5px 12px;
+}
+.card__toggle-text-discount_hide {
+  display: inline;
+}
+
+.card__bottom {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6% 0 3%;
+  width: 80%;
+  margin: auto;
+}
+.card__features {
+  align-items: start;
+}
+
+.card__button {
+  margin: 0;
+}/*# sourceMappingURL=laptop.css.map */

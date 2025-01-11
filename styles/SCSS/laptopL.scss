@@ -1,0 +1,19 @@
+@import "variables";
+
+body {
+  background-size: 100% 50%;
+
+  @at-root .header {
+    margin: 0;
+    background-size: auto 60%;
+    background-position: top 50% center;
+
+    @at-root .header__title {
+      font-size: 2rem;
+    }
+
+    @at-root .header__desc {
+      font-size: 1.1rem;
+    }
+  }
+}
